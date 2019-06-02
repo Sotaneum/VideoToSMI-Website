@@ -22,7 +22,7 @@ Create a smi file in Web based on the video
 
 ![Alt text](./image/page.PNG)
 
-## STEP3 . Access to developer mode And Writ "setIP(your server uri)"
+## STEP3 . Access to developer mode And Write "setIP(your server uri)"
 
 ![Alt text](./image/page5.PNG)
 
