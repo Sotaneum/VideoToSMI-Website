@@ -1,0 +1,136 @@
+body{
+    padding:0px;
+    margin: 0px;
+    background-color:#f1e5e6;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.background img {
+    animation: target_image 0.1s;
+    animation-iteration-count: infinite;
+}
+.background-c{
+    top:0;
+    left:0;
+    opacity: 0.7;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.background{
+    position: fixed;
+    top:calc(50% - 106px);
+    left:calc(50% - 109px);
+}
+.background p{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    display: inline-block;
+    top:calc(50% - 10px);
+    left:calc(50% - 35px);
+}
+@keyframes target_image {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    25% {
+        transform: rotateZ(90deg);
+    }
+    50% {
+        transform: rotateZ(180deg);
+    }
+    75% {
+        transform: rotateZ(270deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+#head{
+    width:100%;
+    vertical-align: middle;
+}
+#head-title{
+    display:inline-block;
+    padding: 0px;
+    width:100%;
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    font-size: 30px;
+    color:#4b0f31;
+}
+#middle{
+    width:100%;
+    text-align: center;                
+}
+#middle-upload{
+    display: inline-block;
+    background: #dfc8ca;
+    width:80%;
+    height:auto;
+}
+#middle-upload-form{
+    margin:0px;
+    padding:0px;
+    width:0.1px;
+    height:0.1px;
+    opacity: 0;
+}
+#middle-upload-form-input{
+    overflow: hidden;
+    opacity: 0;
+    width:0.1px;
+    height:0.1px;
+}
+#middle-upload-label{
+    width:100%;
+    height:300px;
+    display:inline-block;
+    text-align: center;
+}
+
+#middle-upload-title{
+    width: 100%;
+    text-align: center;
+    color:#d3394c;
+}
+#bottom{
+    width:100%;
+    margin: 20px 0px 0px 0px;
+}
+#bottom-copyright{
+    width: 100%;
+    text-align: center;
+    color:gray;
+    font-size:10px;
+}
+#bottom-copyright a:link,
+#bottom-copyright a:visited,
+#bottom-copyright a:hover,
+#bottom-copyright a:active{
+    color:gray;
+}
+.button{
+    display:inline-block;
+    margin: 60px 0px 0px 0px; 
+    cursor: pointer;
+    width:200px;
+    height:auto;
+}
+.button:hover #middle-upload-title{
+    color: #d33999;
+}
+.button:hover figure{
+    background-color: #d33999;
+}
+.button figure{
+    display:inline-block;
+    border-radius: 100%;
+    background-color:#d3394c;
+    margin: 0px;
+    padding:15px 20px 20px 20px;
+    width:100px;
+    height:100px;
+}
