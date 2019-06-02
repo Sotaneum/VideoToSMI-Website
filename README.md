@@ -5,7 +5,8 @@ Create a smi file in Web based on the video
 
 ## Server
 - [VideoToSMI-Server](https://github.com/Sotaneum/VideoToSMI-Server)
- 
+  - 0.0.1 ~ 0.0.3 : [Old Version](https://github.com/Sotaneum/VideoToSMI-Website/tree/52a830a164bfac02f3a1b3400b434e520b69bd8a)
+  - 0.0.4 ~ : [Last Version](https://github.com/Sotaneum/VideoToSMI-Website)
 ## DEMO
  - [TEST PAGE](http://duration.digimoon.net/dev/VideoToSMI/)
 
