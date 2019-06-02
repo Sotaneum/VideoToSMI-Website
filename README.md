@@ -18,13 +18,18 @@ Create a smi file in Web based on the video
 
 ![Alt text](./image/page4.PNG)
 
-## STEP2 . index.html Run Or Goto [DEMO](http://duration.digimoon.net/dev/VideoToSMI/) page
+## STEP2 . index.html Run or [DEMO](http://duration.digimoon.net/dev/VideoToSMI/) page
 
 ![Alt text](./image/page.PNG)
 
-## STEP3 . Access to developer mode And Write "setIP(your server uri)"
+## STEP3 . Access to developer mode And Write "setIP(your server uri)" or Change code
+  - Access to developer mode And Write "setIP(your server uri)"
 
-![Alt text](./image/page5.PNG)
+    ![Alt text](./image/page5.PNG)
+
+  - Change Code
+
+    ![Alt text](./image/page6.PNG)
 
 ## STEP4 . Click Image And Select File And Waiting.
 
