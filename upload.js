@@ -6,6 +6,9 @@
 
 function setIP(ip){
     SERVER_IP = ip;
+    if(SERVER_IP[SERVER_IP.length-1]!='/'){
+        SERVER_IP+='/';
+    }
 }
 
 function openDialog(){
