@@ -29,7 +29,7 @@ function uploadFile() {
         type: 'POST',
         success: function (result) {
             $('.background').css('display', 'none');
-            window.open(SERVER_IP+"?smi="+result, 'newWindow');
+            window.open(SERVER_IP+result, 'newWindow');
             alert("다운로드 되었습니다. 다운로드가 되지 않는다면 팝업을 확인해주세요.");
         },
         error:function(){
